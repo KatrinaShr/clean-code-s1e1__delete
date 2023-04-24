@@ -14,7 +14,7 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 //New task list item
 var createNewTaskElement=function(taskString){
 
-    var listItem=document.createElement("li");
+    var listItem=document.createElement("div");
     listItem.classList.add('tasks__item');
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
@@ -106,9 +106,9 @@ var deleteTask=function(){
     console.log("Delete Task...");
 
     var listItem=this.parentNode;
-    var ul=listItem.parentNode;
+    var section=listItem.parentNode;
     //Remove the parent list item from the ul.
-    ul.removeChild(listItem);
+    section.removeChild(listItem);
 
 }
 
