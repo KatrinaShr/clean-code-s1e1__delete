@@ -15,7 +15,7 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("div");
-    listItem.classList.add('tasks__item');
+    listItem.classList.add('tasks-item');
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
@@ -35,7 +35,7 @@ var createNewTaskElement=function(taskString){
     label.className='task-title';
 
     //Each elements, needs appending
-    checkBox.classList.add('task-status'); 
+    checkBox.classList.add('tasks-item__status'); 
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.className="task";
