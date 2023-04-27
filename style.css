@@ -20,6 +20,10 @@
   font-family: fantasy, cursive;
 }
 
+.more-details__title {
+  font-size: 1rem;
+}
+
 @media (max-width:768px) {
 
   .more-details { 
@@ -171,3 +175,4 @@
 .edit-mode .task-title {
   display: none;
 }
+
