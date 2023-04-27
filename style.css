@@ -20,7 +20,11 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+.more-details__title {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
 
   .more-details { 
     text-align: center;
@@ -44,7 +48,7 @@
   display: flex;
 }
 
-.tasks-contant {
+.tasks-content {
   margin: 0;
   padding: 0px;
 }
@@ -76,7 +80,7 @@
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 .tasks__section-title,
@@ -171,3 +175,4 @@
 .edit-mode .task-title {
   display: none;
 }
+
